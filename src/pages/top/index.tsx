@@ -1,7 +1,12 @@
-export default function Top(): JSX.Element {
+import Header from "../../components/layout/header";
+
+function Top(): JSX.Element {
   return (
     <>
+      <Header></Header>
       <p>Top</p>
     </>
   );
 }
+
+export default Top;

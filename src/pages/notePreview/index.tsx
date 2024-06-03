@@ -1,7 +1,12 @@
-export default function NotePreview(): JSX.Element {
+import Header from "../../components/layout/header";
+
+function NotePreview(): JSX.Element {
   return (
     <>
+      <Header></Header>
       <p>Note Preview</p>
     </>
   );
 }
+
+export default NotePreview;
